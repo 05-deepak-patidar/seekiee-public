@@ -26,7 +26,7 @@
     "drizzle-orm": "^0.45.2",
     "lucide-react": "^1.17.0",
     "mammoth": "^1.12.0",
-    "next": "15.5.19",
+    "next": "16.2.7",
     "pdf-parse": "^2.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
