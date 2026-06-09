@@ -1,0 +1,19 @@
+{
+  "framework": "nextjs",
+  "github": {
+    "enabled": false
+  },
+  "ignoreCommand": "exit 1",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install --legacy-peer-deps",
+  "outputDirectory": ".next",
+  "functions": {
+    "src/app/api/evaluate/route.ts": {
+      "maxDuration": 120
+    },
+    "src/app/api/pdf/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}

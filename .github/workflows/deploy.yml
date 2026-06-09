@@ -1,0 +1,30 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+        working-directory: apps/web
+
+      - name: Deploy to Vercel (production)
+        run: npx vercel --prod --yes --cwd apps/web
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: team_tebbLBKrBBtqEs6OrVxu0GuQ
+          VERCEL_PROJECT_ID: prj_Pqcjk4sDNo4bo0pTY62xldMOmN3y

@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+/* ── Self-hosted fonts ─────────────────────────────────────── */
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/poppins-600-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/poppins-600-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/poppins-700-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/poppins-700-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/poppins-800-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/poppins-800-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/inter-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF;
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+}
+
+/* ── Darkiee Design Tokens ─────────────────────────────────── */
+:root {
+  --brand-orange:       #f77f03;
+  --brand-orange-light: #ff8d28;
+  --brand-purple:       #8b5cf6;
+  --brand-purple-deep:  #6d28d9;
+
+  --color-primary:        #f77f03;
+  --color-primary-light:  #ff8d28;
+  --color-primary-dark:   #c96200;
+  --color-secondary:      #8b5cf6;
+  --color-secondary-dark: #6d28d9;
+  --color-accent:         #ff8d28;
+
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error:   #ef4444;
+  --color-info:    #3b82f6;
+
+  --color-bg-primary:    #0f172a;
+  --color-bg-secondary:  #1e293b;
+  --color-bg-tertiary:   #334155;
+  --color-surface:       #1e293b;
+  --color-surface-hover: #334155;
+  --color-text-primary:   #f1f5f9;
+  --color-text-secondary: #cbd5e1;
+  --color-text-tertiary:  #94a3b8;
+
+  --glass-bg:          rgba(30, 41, 59, 0.7);
+  --glass-border:      rgba(255, 255, 255, 0.1);
+  --color-card-border: rgba(255, 255, 255, 0.05);
+  --color-code-bg:     #0a0f1d;
+
+  --gradient-brand:      linear-gradient(90deg, #ff8d28 0%, #8b5cf6 100%);
+  --gradient-brand-diag: linear-gradient(135deg, #ff8d28 0%, #8b5cf6 100%);
+  --gradient-primary:    linear-gradient(135deg, #ff8d28 0%, #8b5cf6 100%);
+  --gradient-secondary:  linear-gradient(135deg, #8b5cf6 0%, #ff8d28 100%);
+  --gradient-accent:     linear-gradient(135deg, #ff8d28 0%, #f77f03 50%, #8b5cf6 100%);
+  --gradient-brand-soft: linear-gradient(135deg, rgba(247, 127, 3, 0.12) 0%, rgba(139, 92, 246, 0.12) 100%);
+
+  --font-primary:   'Poppins', system-ui, -apple-system, sans-serif;
+  --font-secondary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:      'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+
+  --radius-sm:   0.5rem;
+  --radius-md:   1rem;
+  --radius-lg:   1.5rem;
+  --radius-full: 9999px;
+
+  --shadow-glow:        0 0 30px rgba(247, 127, 3, 0.35);
+  --shadow-glow-purple: 0 0 30px rgba(139, 92, 246, 0.35);
+
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.light-theme {
+  --color-primary:        #c96200;
+  --color-primary-light:  #e07a1a;
+  --color-secondary:      #6d28d9;
+  --color-secondary-dark: #5b21b6;
+  --color-bg-primary:    #ffffff;
+  --color-bg-secondary:  #f8fafc;
+  --color-bg-tertiary:   #f1f5f9;
+  --color-surface:       #ffffff;
+  --color-surface-hover: #f8fafc;
+  --color-text-primary:   #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-tertiary:  #64748b;
+  --glass-bg:     rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(15, 23, 42, 0.1);
+  --shadow-glow:  0 0 30px rgba(201, 98, 0, 0.25);
+}
+
+/* ── Base ──────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-secondary);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Utilities ─────────────────────────────────────────────── */
+.gradient-text {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(12px);
+}
+
+/* stat card top gradient border */
+.stat-border-top::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--gradient-brand);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+/* Pipeline running indicator */
+@keyframes seekiee-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(0.75); }
+}
+
+/* AI log line animation */
+@keyframes logFadeIn {
+  from { opacity: 0; transform: translateY(3px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.log-line { animation: logFadeIn 0.2s ease-out both; }
+
+/* scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--color-bg-secondary); }
+::-webkit-scrollbar-thumb { background: var(--color-bg-tertiary); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-tertiary); }
+
+:focus-visible { outline: 2px solid var(--color-primary-light); outline-offset: 3px; }

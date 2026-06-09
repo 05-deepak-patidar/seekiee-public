@@ -1,0 +1,18 @@
+{
+  "name": "seekiee",
+  "metadata": {
+    "description": "AI job search command center — evaluate offers, generate CVs, scan portals, track applications"
+  },
+  "owner": {
+    "name": "Seekiee",
+    "url": "https://darkiee.com"
+  },
+  "plugins": [
+    {
+      "name": "seekiee",
+      "source": "./",
+      "description": "AI job search pipeline — evaluate offers, generate CVs, scan portals, track applications",
+      "category": "productivity"
+    }
+  ]
+}

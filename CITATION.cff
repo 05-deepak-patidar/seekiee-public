@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use Seekiee, please cite it using these metadata."
+title: "Seekiee: AI-Powered Job Search Command Center"
+type: software
+authors:
+  - name: "Seekiee"
+    website: "https://darkiee.com"
+url: "https://darkiee.com"
+repository-code: "https://github.com/05-deepak-patidar/Seekiee"
+license: MIT
+keywords:
+  - ai
+  - job-search
+  - claude-code
+  - career
+  - seekiee
+  - automation
+  - llmops
+  - go-tui
+references:
+  - type: software
+    title: "career-ops: AI-Powered Job Search Pipeline"
+    notes: "Seekiee is built on the open-source career-ops project, used under the MIT License."
+    authors:
+      - family-names: "Fernández de Valderrama"
+        given-names: "Santiago"
+    repository-code: "https://github.com/santifer/career-ops"
+    license: MIT
