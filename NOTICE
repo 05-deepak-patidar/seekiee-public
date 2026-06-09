@@ -1,0 +1,41 @@
+Seekiee
+Copyright (c) 2026 Seekiee
+
+This product is a derivative work built on the open-source "career-ops"
+project, used under the terms of the MIT License.
+
+-------------------------------------------------------------------------------
+Upstream / original work
+-------------------------------------------------------------------------------
+
+career-ops — AI-Powered Job Search Pipeline
+Copyright (c) 2026 Santiago Fernández de Valderrama
+Homepage: https://santifer.io
+Source:   https://github.com/santifer/career-ops
+License:  MIT (see LICENSE)
+
+The full text of the MIT License, including the original copyright notice
+above, is retained in the LICENSE file as required by that license.
+
+-------------------------------------------------------------------------------
+Modifications by Seekiee
+-------------------------------------------------------------------------------
+
+Seekiee has modified the original work, including (non-exhaustively):
+rebranding, user-interface changes, the CV template visual design, the
+dashboard theme, and configuration. All Seekiee modifications are
+Copyright (c) 2026 Seekiee and are likewise distributed under the MIT License.
+
+The "Seekiee" name, logo, and visual identity are brand assets of Seekiee
+and are not covered by the MIT License (see TRADEMARK.md). The "career-ops"
+name and brand remain the property of their original owner.
+
+-------------------------------------------------------------------------------
+Third-party fonts
+-------------------------------------------------------------------------------
+
+The CV template bundles the following open-source fonts under the SIL Open
+Font License 1.1:
+
+  - Poppins  — Copyright (c) Indian Type Foundry, Jonny Pinhorn
+  - Inter    — Copyright (c) The Inter Project Authors

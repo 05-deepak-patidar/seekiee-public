@@ -1,0 +1,25 @@
+{
+  "name": "seekiee",
+  "version": "1.0.0",
+  "displayName": "Seekiee — AI Job Search",
+  "description": "AI job search command center: evaluate offers, generate CVs, scan portals, track applications. Works in Claude Code, Gemini CLI, OpenCode, and any AI CLI that supports the open agent skill standard.",
+  "author": {
+    "name": "Darkiee",
+    "email": "hello@darkiee.com",
+    "url": "https://darkiee.com"
+  },
+  "homepage": "https://seekiee.darkiee.com",
+  "repository": "https://github.com/05-deepak-patidar/seekiee-public",
+  "license": "MIT",
+  "keywords": ["job-search", "cv", "resume", "career", "ai", "job-evaluation"],
+  "entrypoint": ".claude/skills/seekiee/SKILL.md",
+  "commands": [
+    { "name": "seekiee", "description": "Show menu or evaluate a job offer" },
+    { "name": "seekiee evaluate", "description": "Evaluate a job offer (A–F scoring)" },
+    { "name": "seekiee pdf", "description": "Generate ATS-optimized CV PDF" },
+    { "name": "seekiee scan", "description": "Scan portals for new offers" },
+    { "name": "seekiee tracker", "description": "Application status overview" },
+    { "name": "seekiee pipeline", "description": "Process pending URLs from inbox" },
+    { "name": "seekiee compare", "description": "Compare and rank multiple offers" }
+  ]
+}
