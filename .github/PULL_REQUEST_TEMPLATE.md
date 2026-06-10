@@ -25,4 +25,4 @@
 - [ ] My changes align with the [project roadmap](https://github.com/05-deepak-patidar/seekiee-public/discussions/156)
 
 ---
-Questions? [Join the Discord](https://discord.gg/8pRpHETxa4) for faster feedback.
+Questions? [Ask in GitHub Discussions](https://github.com/05-deepak-patidar/seekiee-public/discussions) for faster feedback.

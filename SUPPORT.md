@@ -8,8 +8,8 @@ seekiee is an open source project maintained in limited time. Here's how to get 
 |---|---|
 | **Bug** (something is broken) | [GitHub Issues](https://github.com/05-deepak-patidar/seekiee-public/issues) — use the Bug Report template |
 | **Feature idea** | [GitHub Issues](https://github.com/05-deepak-patidar/seekiee-public/issues) — use the Feature Request template |
-| **How do I...?** | [GitHub Discussions](https://github.com/05-deepak-patidar/seekiee-public/discussions) or [Discord](https://discord.gg/8pRpHETxa4) |
-| **Setup help** | Check [docs/SETUP.md](docs/SETUP.md) first, then ask in [Discord](https://discord.gg/8pRpHETxa4) |
+| **How do I...?** | [GitHub Discussions](https://github.com/05-deepak-patidar/seekiee-public/discussions) or [Discord](https://github.com/05-deepak-patidar/seekiee-public/discussions) |
+| **Setup help** | Check [docs/SETUP.md](docs/SETUP.md) first, then ask in [GitHub Discussions](https://github.com/05-deepak-patidar/seekiee-public/discussions) |
 | **Security vulnerability** | Email hello@darkiee.com — see [SECURITY.md](SECURITY.md) |
 
 ## Before opening an issue

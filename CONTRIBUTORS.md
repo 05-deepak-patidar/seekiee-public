@@ -1,40 +1,13 @@
 # Contributors
 
-seekiee exists because of the people who build with it. thank you.
+Seekiee is maintained by [Darkiee](https://darkiee.com) ([@05-deepak-patidar](https://github.com/05-deepak-patidar)).
 
-## Core Contributors
+This list will grow with the project — when your PR is merged, add yourself here (or we'll do it for you).
 
-Contributors with sustained technical ownership over specific areas. Full authority over content direction within their scope.
+## Upstream
 
-- **[@bracketouverte](https://github.com/bracketouverte)** (Michael) — Technical contributor focused on scan mode and ATS research. Running daily support in Discord.
+Seekiee builds on [career-ops](https://github.com/santifer/career-ops) by Santiago Fernández de Valderrama and its community of contributors. The engine's foundations — the evaluation rubric, portal scanners, and pipeline tooling — originate there; see the upstream [contributors graph](https://github.com/santifer/career-ops/graphs/contributors) and our [`NOTICE`](NOTICE) for attribution.
 
-- **[@piscespieces](https://github.com/piscespieces)** (Andres Urdaneta) — Docs architect. Maintains the getting-started guides at [seekiee-docs.vercel.app](https://seekiee-docs.vercel.app). Shipped [PR #286](https://github.com/05-deepak-patidar/seekiee-public/pull/286) (portals cleanup). Authored the comparative analysis that defines what seekiee is vs. isn't.
+## How to get on this list
 
-## Shipping with the project
-
-- **[@CURT1S03](https://github.com/CURT1S03)** (Curtis) — LaTeX/Overleaf CV export ([PR #362](https://github.com/05-deepak-patidar/seekiee-public/pull/362), merged — resolves [#47](https://github.com/05-deepak-patidar/seekiee-public/issues/47))
-- **[@vivek-gite](https://github.com/vivek-gite)** — A16Z provider support ([PR #271](https://github.com/05-deepak-patidar/seekiee-public/pull/271), in review)
-- **@3fones** — LinkedIn scanner (WIP, paid Claude Max to build on top of the project)
-- **@kennedy58** — Testing alternative inference providers
-- **@kelvan** — Surfaced the token consumption issue that drove the optimization roadmap
-
-## Community Voices
-
-Members who landed roles using seekiee and opted in to share their journey publicly. Their tips and patterns shape how we explain the project.
-
-- **[@logumani2112](https://github.com/logumani2112)** — Landed Backend Developer (.NET) at an IT services company. 50 listings evaluated, 1 month from first scan to offer. Most useful feature: A–F evaluation scoring. Their tip: *"Focus on quality over quantity. Use the evaluation scoring to prioritize the right opportunities and tailor your resume for each role."* ([#440](https://github.com/05-deepak-patidar/seekiee-public/issues/440))
-- **[@chinna63055](https://github.com/chinna63055)** — 200 listings evaluated, 2 weeks from first scan to offer. Most useful feature: A–F evaluation scoring. ([#388](https://github.com/05-deepak-patidar/seekiee-public/issues/388))
-
-## Community Guides
-
-Members helping newcomers in Discord day-to-day.
-
-- **@mbaku.shogun** — Support in #getting-started
-- **@.ham__.** — Support and onboarding
-- **@banadi** (Mauricio) — Support and onboarding
-- **@systemsyogi** — Support and onboarding
-- **@nafterg** — Community organization suggestions, Discord structure
-
-## How to become a contributor
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) and the [Contributor Ladder](GOVERNANCE.md#contributor-ladder) in GOVERNANCE.md. Open an issue first for anything beyond a typo fix — we merge fast when scope is clear.
+Open an issue, discuss, ship a PR — see [CONTRIBUTING.md](CONTRIBUTING.md). Sustained contributors earn larger roles via the ladder described in [GOVERNANCE.md](GOVERNANCE.md).

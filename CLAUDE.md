@@ -300,8 +300,8 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 - **Code of Conduct**: Contributor Covenant 2.1 with enforcement actions (see `CODE_OF_CONDUCT.md`)
 - **Governance**: BDFL model with contributor ladder — Participant → Contributor → Triager → Reviewer → Maintainer (see `GOVERNANCE.md`)
 - **Security**: private vulnerability reporting via email (see `SECURITY.md`)
-- **Support**: help questions go to Discord/Discussions, not issues (see `SUPPORT.md`)
-- **Discord**: https://discord.gg/8pRpHETxa4
+- **Support**: help questions go to GitHub Discussions, not issues (see `SUPPORT.md`)
+- **Discussions**: https://github.com/05-deepak-patidar/seekiee-public/discussions
 
 ## Stack and Conventions
 

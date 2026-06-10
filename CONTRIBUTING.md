@@ -76,6 +76,6 @@ trademark policy regarding commercial naming and endorsement claims.
 
 ## Need Help?
 
-- [Join the Discord](https://discord.gg/8pRpHETxa4) — fastest way to get answers and connect with other contributors
+- [Join GitHub Discussions](https://github.com/05-deepak-patidar/seekiee-public/discussions) — fastest way to get answers and connect with other contributors
 - [Open an issue](https://github.com/05-deepak-patidar/seekiee-public/issues)
 - [Read the architecture docs](docs/ARCHITECTURE.md)

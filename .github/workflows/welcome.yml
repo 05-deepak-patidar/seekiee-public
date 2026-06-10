@@ -24,10 +24,10 @@ jobs:
             - Make sure you've linked a related issue (required for features)
             - Read [CONTRIBUTING.md](https://github.com/05-deepak-patidar/seekiee-public/blob/main/CONTRIBUTING.md) if you haven't
 
-            We'll review your PR soon. Join our [Discord](https://discord.gg/8pRpHETxa4) if you have questions.
+            We'll review your PR soon. Join our [GitHub Discussions](https://github.com/05-deepak-patidar/seekiee-public/discussions) if you have questions.
           issue_message: |
             Thanks for opening your first issue, @${{ github.actor }}! We'll take a look soon.
 
             In the meantime:
             - Check [SUPPORT.md](https://github.com/05-deepak-patidar/seekiee-public/blob/main/SUPPORT.md) for setup help
-            - Join our [Discord](https://discord.gg/8pRpHETxa4) for quick answers
+            - Join our [GitHub Discussions](https://github.com/05-deepak-patidar/seekiee-public/discussions) for quick answers
