@@ -2,7 +2,7 @@
 
 This document explains how the "Seekiee" name and brand may be used. It
 complements — not replaces — the MIT [LICENSE](LICENSE) that governs the
-source code, and the [NOTICE](NOTICE) that attributes upstream work.
+source code.
 
 ## TL;DR
 
@@ -21,13 +21,6 @@ reserved by Seekiee.
 If you fork this project, please **pick your own product name** and your
 own visual identity rather than reusing "Seekiee." You are welcome to
 describe lineage ("based on Seekiee") with attribution.
-
-## Upstream brand
-
-Seekiee is built on the open-source **career-ops** project by Santiago
-Fernández de Valderrama. The "career-ops" name and brand are the property
-of their respective owner and are not claimed by Seekiee. See
-[NOTICE](NOTICE) for upstream attribution.
 
 ## What you can do without asking
 
@@ -53,6 +46,4 @@ Email **hello@darkiee.com** with subject **"Brand request — [your use case]"**
 
 ---
 
-© 2026 Seekiee. "Seekiee" and the Seekiee logo are brand assets of Seekiee.
-Built on the open-source career-ops project (MIT License) by Santiago
-Fernández de Valderrama.
+© 2026 Darkiee. "Seekiee" and the Seekiee logo are brand assets of Darkiee.

@@ -3,7 +3,7 @@ message: "If you use Seekiee, please cite it using these metadata."
 title: "Seekiee: AI-Powered Job Search Command Center"
 type: software
 authors:
-  - name: "Seekiee"
+  - name: "Darkiee"
     website: "https://darkiee.com"
 url: "https://darkiee.com"
 repository-code: "https://github.com/05-deepak-patidar/seekiee-public"
@@ -17,12 +17,3 @@ keywords:
   - automation
   - llmops
   - go-tui
-references:
-  - type: software
-    title: "career-ops: AI-Powered Job Search Pipeline"
-    notes: "Seekiee is built on the open-source career-ops project, used under the MIT License."
-    authors:
-      - family-names: "Fernández de Valderrama"
-        given-names: "Santiago"
-    repository-code: "https://github.com/santifer/career-ops"
-    license: MIT

@@ -1,34 +1,15 @@
 Seekiee
-Copyright (c) 2026 Seekiee
+Copyright (c) 2026 Darkiee (https://darkiee.com)
 
-This product is a derivative work built on the open-source "career-ops"
-project, used under the terms of the MIT License.
+Seekiee is developed and maintained by Darkiee and distributed under the
+MIT License (see LICENSE).
 
--------------------------------------------------------------------------------
-Upstream / original work
--------------------------------------------------------------------------------
+Portions of this software are copyright (c) 2026 Santiago Fernández de
+Valderrama and are used under the terms of the MIT License. The required
+copyright and permission notices are retained in the LICENSE file.
 
-career-ops — AI-Powered Job Search Pipeline
-Copyright (c) 2026 Santiago Fernández de Valderrama
-Homepage: https://santifer.io
-Source:   https://github.com/santifer/career-ops
-License:  MIT (see LICENSE)
-
-The full text of the MIT License, including the original copyright notice
-above, is retained in the LICENSE file as required by that license.
-
--------------------------------------------------------------------------------
-Modifications by Seekiee
--------------------------------------------------------------------------------
-
-Seekiee has modified the original work, including (non-exhaustively):
-rebranding, user-interface changes, the CV template visual design, the
-dashboard theme, and configuration. All Seekiee modifications are
-Copyright (c) 2026 Seekiee and are likewise distributed under the MIT License.
-
-The "Seekiee" name, logo, and visual identity are brand assets of Seekiee
-and are not covered by the MIT License (see TRADEMARK.md). The "career-ops"
-name and brand remain the property of their original owner.
+The "Seekiee" and "Darkiee" names, logos, and visual identity are brand
+assets of Darkiee and are not covered by the MIT License (see TRADEMARK.md).
 
 -------------------------------------------------------------------------------
 Third-party fonts

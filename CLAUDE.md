@@ -2,7 +2,7 @@
 
 ## Origin
 
-Seekiee is an AI-powered job search command center by [Seekiee](https://darkiee.com), an AI & technology studio. It is built on the open-source [career-ops](https://github.com/santifer/career-ops) project by Santiago Fernández de Valderrama, used under the MIT License (see [`NOTICE`](NOTICE)). The underlying engine was originally proven across 740+ job offers, 100+ tailored CVs, and a successful Head of Applied AI search.
+Seekiee is an AI-powered job search command center by [Darkiee](https://darkiee.com), an AI & technology studio. The source code is distributed under the MIT License (see [`LICENSE`](LICENSE)).
 
 **It will work out of the box, but it's designed to be made yours.** If the archetypes don't match your career, the modes are in the wrong language, or the scoring doesn't fit your priorities -- just ask. You (AI Agent) can edit the user's files. The user says "change the archetypes to data engineering roles" and you do it. That's the whole point.
 
@@ -193,7 +193,7 @@ Once all files exist, confirm:
 >
 > Everything is customizable — just ask me to change anything.
 >
-> Tip: Having a personal portfolio dramatically improves your job search. If you don't have one yet, the author's portfolio is also open source: github.com/seekiee/cv-santiago — feel free to fork it and make it yours."
+> Tip: Having a personal portfolio dramatically improves your job search. If you don't have one yet, I can help you plan and build one — just ask."
 
 Then suggest automation:
 > "Want me to scan for new offers automatically? I can set up a recurring scan every few days so you don't miss anything. Just say 'scan every 3 days' and I'll configure it."

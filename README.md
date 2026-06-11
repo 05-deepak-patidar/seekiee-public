@@ -90,13 +90,9 @@ By using this software, you acknowledge:
 
 See [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) for full details. Provided under the [MIT License](LICENSE) "as is", without warranty of any kind.
 
-## Origin & acknowledgements
-
-Seekiee builds on [career-ops](https://github.com/santifer/career-ops) by Santiago Fernández de Valderrama, used under the MIT License — see [`NOTICE`](NOTICE) for full attribution. The evaluation-rubric core proved itself in his original job search; Darkiee has since rebuilt the system around its own product direction: the Seekiee brand, the hosted web platform, multi-CLI support, and ongoing maintenance.
-
 ## License & Trademark
 
-The code is licensed under [MIT](LICENSE) © Darkiee and career-ops contributors. The **Seekiee** and **Darkiee** names, logos, and visual identity are brand assets governed by the [Trademark Policy](TRADEMARK.md) — permissive for community use, reserved for commercial product naming and endorsement.
+The code is licensed under [MIT](LICENSE) © Darkiee. The **Seekiee** and **Darkiee** names, logos, and visual identity are brand assets governed by the [Trademark Policy](TRADEMARK.md) — permissive for community use, reserved for commercial product naming and endorsement.
 
 ## Connect
 
