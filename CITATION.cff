@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Seekiee, please cite it using these metadata."
+title: "Seekiee: AI-Powered Job Search Command Center"
+type: software
+authors:
+  - name: "Darkiee"
+    website: "https://darkiee.com"
+url: "https://darkiee.com"
+repository-code: "https://github.com/05-deepak-patidar/seekiee-public"
+license: MIT
+keywords:
+  - ai
+  - job-search
+  - claude-code
+  - career
+  - seekiee
+  - automation
+  - llmops
+  - go-tui
